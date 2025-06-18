@@ -130,7 +130,6 @@ $is_saved = in_array($design['design_id'], $saved_ids);
     <span><?php echo $is_saved ? 'Saved' : 'Save'; ?></span>
 </button>
     </div>
-    <span class="block mt-2 text-xs text-purple-700 px-4 pb-4">Average rating: <b data-design-rating="<?php echo htmlspecialchars($design['design_id']); ?>"><?php echo number_format($design['rating'], 1); ?></b> (<span data-design-votes="<?php echo htmlspecialchars($design['design_id']); ?>"><?php echo (int)$design['votes_count']; ?></span> votes)</span>
 </div>
 <?php endforeach; ?>
 </div>

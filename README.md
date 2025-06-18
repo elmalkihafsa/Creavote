@@ -149,7 +149,7 @@ Creavote/
 ---
 
 ## Credits
-- **Lead Developer**: le3shiri
+- **Lead Developer**: hafsa elmalki
 - **UI/UX**: Tailwind CSS
 - **Icons**: [Heroicons](https://heroicons.com/)
 - **Frameworks**: PHP, MySQL
